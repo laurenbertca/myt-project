@@ -19,6 +19,7 @@ a {
 .logo {
 	display: inline-flex;
 	align-items: center;
+	border: 1px solid black;
 }
 
 
