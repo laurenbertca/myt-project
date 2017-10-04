@@ -14,6 +14,7 @@ a {
     justify-content: space-around;
     border-bottom: 1px solid black;
     padding: 5px;
+    height: 50px;
 }
 
 .logo {
@@ -26,8 +27,6 @@ a {
 .site-name {
 	color: MediumAquamarine;
 	margin-left: 15px;
-
-
 }
 
 .nav {
@@ -38,6 +37,16 @@ a {
 
 .nav-item {
 	padding: 20px;
+}
+
+.content-body, .fancy-headline, .standard {
+	border: 1px solid black;
+}
+
+.content-body {
+	margin-top: 100px;
+	display: inline-flex;
+	flex-direction: column;
 }
 
 
