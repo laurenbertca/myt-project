@@ -58,6 +58,7 @@ html, body{
 	margin: 100px 40px;
 	display: inline-flex;
 	flex-direction: row;
+	font-family: Georgia;
 }
 
 .column {
@@ -86,5 +87,37 @@ html, body{
 	width: 240px;
 }
 
+.standard p {
+    font-size: 17px;
+    color: black;
+}
 
+.fancy-headline {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
 
+.fancy-headline h1 {
+	font-size: 40px;
+	text-align: left;
+
+}
+
+#mother {
+	background-image: url(../../resources/img-story-main.png);
+}
+
+#earth {
+	background-image: url(../../resources/img-story-2.png);
+}
+
+#research {
+	background-image: url(../../resources/img-story-3.png);
+}
+
+#cats {
+	background-image: url(../../resources/img-story-1.png);
+}
