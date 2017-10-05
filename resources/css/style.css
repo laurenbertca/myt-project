@@ -100,11 +100,25 @@ html, body{
     padding: 50px 20px;
 }
 
+
 .fancy-headline h1 {
 	font-size: 40px;
 	text-align: left;
 
 }
+
+.grid {
+	display: inline-flex;
+	flex-direction: column;
+	max-height: 500px;
+	max-width: 630px;
+	flex-wrap: wrap;
+}
+
+.grid-story {
+	flex: 1;
+}
+
 
 #mother {
 	background-image: url(../../resources/img-story-main.png);
@@ -121,3 +135,4 @@ html, body{
 #cats {
 	background-image: url(../../resources/img-story-1.png);
 }
+
