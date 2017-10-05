@@ -62,11 +62,10 @@ html, body{
 }
 
 .column {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 	align-content: space-around;
 	margin-right: 32px;
-	
 
 }
 
@@ -108,16 +107,22 @@ html, body{
 }
 
 .grid {
-	display: inline-flex;
-	flex-direction: column;
-	max-height: 500px;
-	max-width: 630px;
-	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
 }
 
-.grid-story {
-	flex: 1;
+.grid-group {
+    display: flex;
+    flex-direction: column;
+	align-items: space-between;
+
 }
+
+.grid-item {
+	width: 300px;
+	height: 300px;
+}
+
 
 
 #mother {
