@@ -3,6 +3,10 @@ a {
 	color: black;
 }
 
+html, body{
+   padding: 0;
+   margin: 0;
+}
 
 .header {
 	font-family: Verdana;
@@ -12,11 +16,11 @@ a {
     position: fixed;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
     border-bottom: 1px solid black;
-    padding: 5px;
-    height: 50px;
+    padding-bottom: 5px;
+    height: 75px;
     background-color: white;
+    z-index: 20;
 }
 
 
@@ -29,18 +33,20 @@ a {
 .logo {
 	display: inline-flex;
 	align-items: center;
-	border: 1px solid black;
+	width: 100%;
+	margin-left: 40px;
 }
 
 
 .nav {
 	display: inline-flex;
 	justify-content: flex-end;
+	margin-right: 40px;
 
 }
 
 .nav-item {
-	padding: 20px;
+	padding-right: 20px;
 }
 
 .content-body, .fancy-headline, .standard, .lead-image {
@@ -52,8 +58,6 @@ a {
 	margin: 100px 40px;
 	display: inline-flex;
 	flex-direction: row;
-
-
 }
 
 .column {
