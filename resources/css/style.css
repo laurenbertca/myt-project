@@ -3,6 +3,7 @@ a {
 	color: black;
 }
 
+
 .header {
 	font-family: Verdana;
 	font-size: 14px;
@@ -42,28 +43,43 @@ a {
 	padding: 20px;
 }
 
-.content-body, .fancy-headline, .standard {
+.content-body, .fancy-headline, .standard, .lead-image {
 	border: 1px solid black;
+
 }
 
 .content-body {
-	margin-top: 100px;
+	margin: 100px 40px;
 	display: inline-flex;
-	flex-direction: row
-	width: 100%;
+	flex-direction: row;
+
+
 }
 
 .column {
 	display: inline-flex;
 	flex-direction: column;
+	align-content: space-around;
+	margin-right: 32px;
+	
+
 }
 
-.column.large {
+.large {
 	width: 630px;
+
 }
 
-.column.medium {
+.medium {
 	width: 300px;
+}
+
+.small {
+	width: 240px;
+}
+
+.small .lead-image {
+	width: 240px;
 }
 
 
