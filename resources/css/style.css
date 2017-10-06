@@ -149,6 +149,48 @@ h3 {
 
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+.footer-info {
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.nav-item-footer {
+	display: inline-flex;
+	padding: 20px;
+}
+
+.my-times-name {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px solid white;
+  padding-right: 20px
+
+}
+
+.copyright {
+	display: flex;
+	width: 100%;
+	align-items: center;
+    justify-content: center;
+}
 
 #mother {
 	background-image: url(../../resources/img-story-main.png);
